@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-ecs-app",
+  "version": "1.0.0",
+  "description": "Node.js application deployed to ECS via CodePipeline",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "jest --coverage --forceExit"
+  },
+  "keywords": ["nodejs", "express", "ecs", "aws"],
+  "author": "DevOps Engineer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
+
