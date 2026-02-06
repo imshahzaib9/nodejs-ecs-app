@@ -261,7 +261,7 @@ app.get('/', (req, res) => {
     <div class="container">
         <div class="header">
             <div class="emoji">🚀</div>
-            <h1>Node.js ECS Application</h1>
+            <h1>Node.js ECS Application | Created by Shahzaib</h1>
             <span class="version-badge">v${process.env.APP_VERSION || '1.0.0'}</span>
         </div>
 
