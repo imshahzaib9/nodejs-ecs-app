@@ -3,6 +3,7 @@ version: 0.2
 env:
   variables:
     REPOSITORY_NAME: "nodejs-ecs-app"
+    AWS_ACCOUNT_ID: "127424156209"
  
 phases:
   pre_build:
@@ -39,4 +40,3 @@ phases:
 artifacts:
   files:
     - imagedefinitions.json
-
