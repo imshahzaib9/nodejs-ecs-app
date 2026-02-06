@@ -29,7 +29,7 @@ app.get('/health', (req, res) => {
 // Root endpoint
 app.get('/', (req, res) => {
     res.json({
-        message: 'Welcome to Node.js ECS Application!',
+        message: 'Welcome to Node.js ECS Application. hello Shahzaib!',
         version: process.env.APP_VERSION || '1.0.0',
         deployedAt: process.env.DEPLOY_TIME || 'unknown',
         endpoints: {
