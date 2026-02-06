@@ -44,7 +44,7 @@ app.get('/', (req, res) => {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Node.js ECS Application</title>
+    <title>Node.js ECS Application | Created By Shahzaib</title>
     <style>
         * {
             margin: 0;
@@ -54,7 +54,7 @@ app.get('/', (req, res) => {
 
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #48cc53 0%, #05ff36 100%);
             min-height: 100vh;
             display: flex;
             align-items: center;
